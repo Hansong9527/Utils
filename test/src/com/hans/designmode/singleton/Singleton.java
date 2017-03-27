@@ -1,4 +1,4 @@
-package singleton;
+package com.hans.designmode.singleton;
 
 
 /**

@@ -1,10 +1,10 @@
-package factoty;
+package com.hans.designmode.factoty;
 
-public class JapanPizza implements Pizza {
+public class ChinaPizza implements Pizza {
 
 	@Override
 	public void prepare() {
-		System.out.println("Japan");
+		System.out.println("China!");
 		System.out.println("prepare Pizza");
 		
 	}

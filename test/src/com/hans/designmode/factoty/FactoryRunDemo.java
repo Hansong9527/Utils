@@ -1,4 +1,4 @@
-package factoty;
+package com.hans.designmode.factoty;
 
 public class FactoryRunDemo {
 
