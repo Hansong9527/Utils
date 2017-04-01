@@ -19,7 +19,6 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 /**
  * 读取Excel
  * 
- * @author zengwendong
  */
 public class ReadExcelUtils {
 	private Workbook wb;

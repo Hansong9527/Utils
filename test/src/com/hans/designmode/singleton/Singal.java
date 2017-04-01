@@ -1,15 +1,16 @@
 package com.hans.designmode.singleton;
 
-import com.hans.designmode.singleton.Singleton;
-
-//线程安全的单例模式
+/**
+ * 模块名称： 线程安全的单例模式<br>
+ * @version v1.0<br>
+ */
 public class Singal {
 
 	private static Singal instance = null;
 	private Singal(){}
 	public static Singal getInstance(){
 		if(instance == null){
-			synchronized (Singleton.class) {
+			synchronized (Singal.class) {
 				instance = new Singal();
 			}
 		}
